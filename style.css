@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: black;
+}
+
+.input {
+    float: right;
+    margin: 8px 5px;
+}
+
+.search_button {
+    background-color: bisque;
+    width: 75px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.search_button:hover {
+    background-color: burlywood;
+    cursor: pointer;
+}
+
+#search {
+    height: 30px;
+    text-align: right;
+    border-radius: 5px;
+    outline: none;
+}
+
+.main_heading_1 {
+    text-align: center;
+    font-size: 80px;
+}
+
+.seconrdy_heading_1 {
+    display: inline;
+    font-size: 40px;
+}
+
+.video {
+    padding: 0 80px;
+}
+
+.vid1 {
+    margin-right: 60px;
+}
+
+.subc {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.founder {
+    text-align: center;
+    font-size: 40px;
+}
+
+.founder_logo {
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 0 0 43%;
+}
+
+.founder_name{
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    background-color: black;
+}
